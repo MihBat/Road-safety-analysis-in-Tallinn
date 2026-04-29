@@ -1,4 +1,4 @@
-# Road-safety-analysis-in-Tallinn
+# Road safety analysis in Tallinn (2021-2024)
 
 ## Background
 
