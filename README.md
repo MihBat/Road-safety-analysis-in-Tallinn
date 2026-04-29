@@ -1,5 +1,11 @@
 # Road safety analysis in Tallinn (2021-2024)
 
+**University:** University of Tartu
+
+**Author:** Mihhail Batura
+
+**Supervisors:** Prof. Evelyn Uuemaa, PhD Raivo Aunap 
+
 ## Background
 
 Let's assume the Department of Transport has received a request to analyze problem areas of the city's road network. The focus should be on areas where drivers most frequently violate speed limits and where pedestrian accidents are most common, with a particular focus on areas near schools and kindergartens. While the client has data on violations and school locations, they lack a comprehensive overview of Tallinn's most dangerous roads—a gap this analysis aims to fill.
