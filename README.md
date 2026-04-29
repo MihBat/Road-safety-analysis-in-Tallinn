@@ -15,3 +15,33 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 3. Is there a statistically significant relationship between pedestrian accidents and weather conditions?
 4. Which specific conditions (road surface type / weather type) pose the highest risk for pedestrians?
 5. Which factor has a stronger influence on pedestrian accident risk — road condition or weather?
+
+## Workflow
+
+**Data preparation (Python) – `code/road_accs_prep.ipynb`**
+- Filters raw CSV data for Tallinn (2021–2024)
+- Cleans and renames columns
+- Converts coordinates to geometry (EPSG:3301)
+- Exports to Shapefile and GeoPackage
+
+**Hexagonal grid & heatmap (QGIS)**
+- Creates hexagon grid (100×100 m) over Tallinn boundary
+- Counts accidents per hexagon (total and pedestrian-only)
+- Generates kernel density heatmap (500 m radius)
+
+**Road buffer & spatial join (QGIS)**
+- Creates 10 m buffer around road network for heatmap and 15 m for hexagonal grid
+- Counts accidents within buffers
+- Joins accident counts back to road segments
+
+**Statistical analysis (Python) – `code/stat_analysis_pedestrian.ipynb`**
+- Constructs 2×2 contingency tables for road condition and weather
+- Calculates Odds Ratio, Chi-square, and Cramér's V
+- Analyzes pedestrian accident share by specific road/weather types
+- Visualizes results with bar charts
+
+**Final maps (QGIS)**
+- Heatmap for decision-makers (continuous risk zones)
+- Hexagonal grid with accident counts (discrete values)
+- Hexagonal grid with  pedestrian involved accident counts (discrete values)
+
