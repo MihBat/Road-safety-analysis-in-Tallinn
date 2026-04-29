@@ -51,3 +51,9 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 - Hexagonal grid with accident counts (discrete values)
 - Hexagonal grid with  pedestrian involved accident counts (discrete values)
 
+## Key results
+
+*   **Pedestrian accident risk is 2.48× higher on roads with poor surface conditions** (snow, ice, wetness, dirt) compared to dry roads (OR = 2.48, p < 0.001).
+*   **Loose snow is the most dangerous road surface:** 57.7% of accidents on such roads involve pedestrians.
+*   **Adverse weather increases pedestrian accident risk by 1.75×** (OR = 1.75, p < 0.001), with snowfall being the most hazardous condition (40.4% pedestrian share).
+*   **Road condition has a stronger impact on pedestrian safety than weather conditions.**
