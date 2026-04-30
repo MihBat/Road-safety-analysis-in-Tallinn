@@ -53,6 +53,8 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 
 ## Key results
 
+*   The most problematic area is Tallinn's city center, which is generally expected. Other problematic areas include Tammsaare Street and Akademi Street in Mustamäe, Telliskivi and Tehnika Streets in Kristiine, and the Mustakivi Bridge in Lasnamäe.
+*   In terms of pedestrian accidents, it's worth paying attention to Sõle Street in Põhja-Tallinn, Akademi Street in Mustamäe, and Tartu Street in Kesklinn – many pedestrian accidents have been recorded there.
 *   **Pedestrian accident risk is 2.48× higher on roads with poor surface conditions** (snow, ice, wetness, dirt) compared to dry roads (OR = 2.48, p < 0.001).
 *   **Loose snow is the most dangerous road surface:** 57.7% of accidents on such roads involve pedestrians.
 *   **Adverse weather increases pedestrian accident risk by 1.75×** (OR = 1.75, p < 0.001), with snowfall being the most hazardous condition (40.4% pedestrian share).
