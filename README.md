@@ -22,6 +22,18 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 4. Which specific conditions (road surface type / weather type) pose the highest risk for pedestrians?
 5. Which factor has a stronger influence on pedestrian accident risk — road condition or weather?
 
+## Data Sources
+
+- **Traffic accidents (point):** Estonian Transport Administration (Transpordiamet, 2025).  
+  Tallinn traffic accident data (2021–2024) – `data/road_accs_tln_21_24.csv`  
+  (https://avaandmed.eesti.ee/datasets/inimkannatanutega-liiklusonnetuste-andmed)
+
+- **Road network (line):** Estonian Road Administration (Teeregister), WFS services.  
+  `data/tee.gpkg`
+
+- **Settlement units (polygon); Municipalities (polygon):** Estonian Land and spatial development board (Maa- ja Ruumiamet).  
+  Administrative and settlement division. (https://geoportaal.maaamet.ee/est/ruumiandmed/haldus-ja-asustusjaotus-p119.html)
+
 ## Workflow
 
 **Data preparation (Python) – `code/road_accs_prep.ipynb`**
