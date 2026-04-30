@@ -59,9 +59,9 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 - Visualizes results with bar charts
 
 **Final maps (QGIS)**
-- Heatmap for decision-makers (continuous risk zones) `heatmap_tln.png`
-- Hexagonal grid with accident counts (discrete values) `road_accs_all.png`
-- Hexagonal grid with  pedestrian involved accident counts (discrete values) `road_accs_pedestrian.png`
+- Heatmap for decision-makers (continuous risk zones) `outputs/heatmap_tln.png`
+- Hexagonal grid with accident counts (discrete values) `outputs/road_accs_all.png`
+- Hexagonal grid with  pedestrian involved accident counts (discrete values) `outputs/road_accs_pedestrian.png`
 
 ## Key results
 
