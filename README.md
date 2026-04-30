@@ -29,7 +29,7 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
   (https://avaandmed.eesti.ee/datasets/inimkannatanutega-liiklusonnetuste-andmed)
 
 - **Road network (line):** Estonian Road Administration (Teeregister), WFS services.  
-  `data/tee.gpkg`
+  `data/roads_tln.gpkg`
 
 - **Settlement units (polygon); Municipalities (polygon):** Estonian Land and spatial development board (Maa- ja Ruumiamet).  
   Administrative and settlement division. (https://geoportaal.maaamet.ee/est/ruumiandmed/haldus-ja-asustusjaotus-p119.html)
