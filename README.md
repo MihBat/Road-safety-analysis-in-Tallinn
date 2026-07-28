@@ -6,6 +6,16 @@
 
 **Supervisors:** Prof. Evelyn Uuemaa, PhD Raivo Aunap 
 
+## Skills demonstrated
+
+• GIS analysis
+• Spatial joins
+• Hotspot analysis
+• Buffer analysis
+• Spatial statistics
+• Cartographic design
+• QGIS
+
 ## Background
 
 Let's assume the Department of Transport has received a request to analyze problem areas of the city's road network. The focus should be on areas where drivers most frequently violate speed limits and where pedestrian accidents are most common, with a particular focus on areas near schools and kindergartens. While the client has data on violations and school locations, they lack a comprehensive overview of Tallinn's most dangerous roads—a gap this analysis aims to fill.
