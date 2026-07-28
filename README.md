@@ -87,3 +87,11 @@ The analysis aims to identify road segments in Tallinn where accidents occur mos
 *   **Loose snow is the most dangerous road surface:** 57.7% of accidents on such roads involve pedestrians.
 *   **Adverse weather increases pedestrian accident risk by 1.5-2 times** (OR = 1.75, p < 0.001), with snowfall being the most hazardous condition (40.4% pedestrian share).
 *   **Road condition has a stronger impact on pedestrian safety than weather conditions.**
+
+## Run instructions
+
+1. Clone the repository or download as ZIP.
+
+2. **Python**: Install required packages:
+   ```bash
+   pip install -r requirements.txt
