@@ -10,6 +10,11 @@
 
 Let's assume the Department of Transport has received a request to analyze problem areas of the city's road network. The focus should be on areas where drivers most frequently violate speed limits and where pedestrian accidents are most common, with a particular focus on areas near schools and kindergartens. While the client has data on violations and school locations, they lack a comprehensive overview of Tallinn's most dangerous roads—a gap this analysis aims to fill.
 
+## Output
+
+# Road accident risk zones in Tallinn
+![Road safety map](output/heatmap_tln.png)
+
 ## Purpose
 
 The analysis aims to identify road segments in Tallinn where accidents occur most frequently, considering both total accident counts and pedestrian-involved incidents. It seeks to provide a general overview and rank the most dangerous sections of the city's road network. Additionally, the study investigates whether a statistically significant relationship exists between pedestrian accidents and environmental conditions, specifically road surface state and weather.
