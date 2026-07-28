@@ -14,7 +14,7 @@ Let's assume the Department of Transport has received a request to analyze probl
 
 ### Road accident risk zones in Tallinn
 
-![Road safety map](output/heatmap_tln.png)
+![Road safety map](outputs/heatmap_tln.png)
 
 ## Purpose
 
